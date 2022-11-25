@@ -1,0 +1,22 @@
+.products{
+    background-color: white;
+    width: 24rem;
+    /* margin-top: 23px; */
+    padding: 20px;
+    margin: 3%;
+}
+.card-button{
+    color:white;
+    border: #ff7271;
+    background-color:#ff7271;
+    font-weight: bold;
+    padding: 12px;
+    width: 55%;
+}
+.car-img{
+    width: 100%;
+}
+.card-footer{
+    display: inline-flex;
+    justify-content: space-between;
+}

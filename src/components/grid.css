@@ -1,0 +1,78 @@
+.m-7{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.p-0{
+    padding: 0px !important;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.form-group{
+    margin-top: 16px;
+}
+.form-control{
+    background-color: #e9e9e9;
+}
+
+.logo{
+   padding: 25px;
+   font-size:larger;
+    text-align: center;
+    font-weight: bold;
+    border: solid #BBC2CC;
+    border-width: 1px;
+}
+.searchBar{
+    border: solid #BBC2CC;
+    border-width: 1px;
+    padding: 4.5px;
+}
+.sellCarButton{
+    color:#ee9b98;
+    border: #ee9b98;
+    background-color: #f6e0e2;
+    font-weight: bold;
+    padding: 10px;
+    width: 40%;
+    margin-left: 10px;
+}
+.rentCarButton{
+    color:#ee9b98;
+    border: #ee9b98;
+    background-color: #f6e0e2;
+    font-weight: bold;
+    padding: 10px;
+    width: 40%;
+    margin-left: 50px;
+
+}
+
+.buttonCol{
+    border: solid #BBC2CC;
+  border-width: 1px;
+  background-color:#e9e9e9;
+padding:17px;
+}
+.header-row{
+    background-color:#e9e9e9;
+}
+
+.search-icon{
+    margin:10px 6px;
+    position: absolute;
+}
