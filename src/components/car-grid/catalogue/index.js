@@ -38,8 +38,8 @@ const Catalogue = () => {
               alt={item.name}
             />
             <Row className="mt-4">
-              {Object.keys(item.details).map((key) => (
-                <Col lg={6} className="d-flex p-0" key={item.key}>
+              {Object.keys(item.details).map((key, index) => (
+                <Col lg={6} className="d-flex p-0" key={index}>
                   <h6 className="text-secondary text-capitalize fs-6">
                     {key}:&nbsp;
                   </h6>

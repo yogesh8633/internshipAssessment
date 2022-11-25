@@ -1,12 +1,11 @@
-import Grid from './components/card-grid';
-import React from 'react';
+import React from "react";
 import "./App.css";
+import Router from './routes/router';
 function App() {
   return (
     <React.Fragment>
-      <Grid/>
+        <Router />
     </React.Fragment>
   );
 }
-
 export default App;

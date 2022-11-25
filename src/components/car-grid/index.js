@@ -2,6 +2,7 @@ import FilterMenu from "./catalogue/filters";
 import Catalogue from "./catalogue";
 import { Row, Col, ButtonGroup } from "reactstrap";
 import "./index.scss";
+import { Link } from "react-router-dom";
 const CarGrid = () => {
   return (
     <div className="grid-layout my-4 mx-0 mx-lg-5 justify-content-center">
@@ -27,12 +28,12 @@ const CarGrid = () => {
             <Col lg={5} className="d-flex justify-content-between">
               <ButtonGroup>
                 <div className="d-flex align-items-center justify-content-center">
-                  <button className="mx-2 rounded-2 sell-car border-0">
+                  <button className="mx-2 rounded-2 sell-car border-0 py-1">
                     SELL YOUR CAR
                   </button>
-                  <button className="mx-2 rounded-2 rent-car border-0">
+                  <Link to="/rent-a-car" className="mx-2 rounded-2 rent-car border-0 btn">
                     RENT CAR
-                  </button>
+                  </Link>
                 </div>
               </ButtonGroup>
               <button className="menu-button mt-2">

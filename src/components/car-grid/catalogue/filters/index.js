@@ -11,7 +11,7 @@ import {
   Label,
   Row,
 } from "reactstrap";
-import "../filters/index.css";
+import "./index.css";
 
 const FilterMenu = () => {
   const [minValue, setMinValue] = useState(35000);
@@ -55,7 +55,7 @@ const FilterMenu = () => {
             Car Cost
           </AccordionHeader>
           <AccordionBody accordionId="2">
-            <Row className="justify-content-between my-2">
+            <Row className="justify-content-between">
               <Col lg={6} className="ps-lg-0">
                 <div className="bg-white p-1 rounded">
                   <p> Price from:</p>
@@ -122,16 +122,19 @@ const FilterMenu = () => {
           </AccordionBody>
         </AccordionItem>
       </Accordion>
-      <div className="mt-lg-5 ">
-        <strong className="ms-5 p-1 text-secondary">Found Car:</strong>
-        <strong>10231</strong>
-        <br />
-        <button className="my-lg-3 mx-lg-5 my-1 mx-3 rounded-2 show-button border-0 bg-primary text-white">
-          Show
-        </button>
-        <button className="exit-button rounded-2 border-0 bg-light-primary text-primary">
-          <i class="fa-solid fa-x" />
-        </button>
+      <div className="px-5 pt-5">
+        <div className="d-flex align-items-center justify-content-start">
+          <strong className="text-secondary me-2">Found Car:</strong>
+          <strong>10231</strong>
+        </div>
+        <div className="d-flex justify-content-start mt-2">
+          <button className="rounded-2 show-button border-0 bg-primary text-white me-3">
+            Show
+          </button>
+          <button className="exit-button rounded-2 border-0 bg-light-primary text-primary">
+            <i className="fa-solid fa-x" />
+          </button>
+        </div>
       </div>
     </Fragment>
   );
